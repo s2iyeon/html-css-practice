@@ -1,0 +1,30 @@
+.profile {
+  width: 100px; 
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.title {
+  font-size: 16px; 
+  color: blue; 
+  letter-spacing: 1px; 
+  text-align: center;
+}
+
+.content {
+  color: red;
+}
+
+p {
+  color: green;
+}
+
+#special {
+  text-align: center;
+  color: blue;
+}
+
+.highlight {
+  color: rebeccapurple; font-weight: 900;
+}
