@@ -29,7 +29,7 @@
 ### 박스 가운데 정렬과 display
 - 이미지 가운데 정렬과 같은 방법을 쓴다 (`display: block; margin-left: auto; margin-right: auto;`)
 - `div`는 원래 `display: block` 성질을 갖고 있어서 `display: block;`은 생략해도 된다
-- 가로 폭이 화면 전체가 아니어야(`width`를 지정해야) 가운데 정렬이 눈에 보인다
+- 박스를 가운데 정렬하려면 `width`로 박스 너비를 줄여야 한다 (`div`는 기본적으로 가로가 화면 전체라서 양옆에 남는 공간이 있어야 가운데로 보낼 수 있다)
 - `display: block`은 가로 한 줄을 전부 차지하라는 뜻이다
 - `div`, `p`, `h1`~`h6`, `li` 등이 기본적으로 `block`이다
 - 이 성질이 싫으면 `display`에 다른 값(`inline`, `inline-block`, `flex` 등)을 줄 수 있으며, 아직 배우지 않았다
